@@ -88,7 +88,7 @@ function calculateDelivery() {
 
   let deliveryPrice = 0;
 
-  if (value >= 10000) {
+  if (value > 10000) {
     deliveryPrice = 0;
   } else if (delivery === "city") {
     deliveryPrice = 1000;
